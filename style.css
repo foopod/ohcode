@@ -1,8 +1,36 @@
-.navBar a{
-    color:#C45A92;
+.navBar{
+    background-color:#C45A92;
+    font-size:110%;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding:20;
+    color:white;
+}
 
+#logo{
+    background-color:#C45A92;
+    font-size:110%;
+    font-family: 'Trispace', sans-serif;
+
+    padding:20;
+    color:white;
 }
 
 nav{
     float:right;
 }
+
+body{
+    margin:0;
+}
+
+.navBar a{
+    color:white;
+    text-decoration: none;
+    padding-right:1em;
+}
+
+@media screen and (min-width: 480px) {
+    .navBar {
+      font-size:260%;
+    }
+  }
